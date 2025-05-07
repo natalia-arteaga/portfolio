@@ -16,11 +16,6 @@ The data was cleaned and transformed using PostgreSQL, including feature enginee
 
  [View the interactive Tableau dashboard](https://public.tableau.com/app/profile/natalia.arteaga6342/viz/AMLProjectDashboard/Dashboard1?publish=yes) 
 
-**Screenshots:**
-![heatmap](images/heatmap.png)
-![dual-axis](images/dual_axis.png)
-![area](images/area_chart.png)
-
 ## Tools Used
 
 - **PostgreSQL** — data cleaning, aggregation, and feature creation
