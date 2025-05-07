@@ -4,13 +4,17 @@ This project explores time-based and transaction-level trends in credit card fra
 
 ## Project Overview
 
-Using a real-world anonymized dataset of over 280,000 transactions, this dashboard identifies:
+Using a real-world anonymized dataset of over 280,000 transactions found on Keggle, this dashboard identifies:
 
 - When fraud is most likely to occur (2–4 AM)
 - How risk varies across transaction sizes (Low, Medium, High)
 - Which combinations of time and amount show the highest fraud rates
 
 The data was cleaned and transformed using PostgreSQL, including feature engineering such as `amount_level` and `hour_of_day`. The resulting visuals were created in Tableau Public using a clean, data-science-aligned style.
+
+Here is a link to the original dataset 
+
+Dataset URL: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ## Dashboard Preview
 
