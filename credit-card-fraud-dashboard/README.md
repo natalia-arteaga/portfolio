@@ -4,7 +4,7 @@ This project explores time-based and transaction-level trends in credit card fra
 
 ## Project Overview
 
-Using a real-world anonymized dataset of over 280,000 transactions found on Keggle, this dashboard identifies:
+Using a real-world anonymized dataset of over 280,000 transactions found on Kaggle, this dashboard identifies:
 
 - When fraud is most likely to occur (2–4 AM)
 - How risk varies across transaction sizes (Low, Medium, High)
@@ -12,19 +12,24 @@ Using a real-world anonymized dataset of over 280,000 transactions found on Kegg
 
 The data was cleaned and transformed using PostgreSQL, including feature engineering such as `amount_level` and `hour_of_day`. The resulting visuals were created in Tableau Public using a clean, data-science-aligned style.
 
-Here is a link to the original dataset 
+Additionally, a machine learning model was built to predict fraud using Python. Three models were evaluated: Logistic Regression, Random Forest, and XGBoost. 
 
-Dataset URL: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+- **XGBoost** achieved the best balance between precision and recall, making it an excellent candidate for real-time fraud detection in a banking environment.
+- **Logistic Regression**, with its high recall, could be preferred for pre-screening systems where catching all possible fraud—even with some false positives—is critical.
+- **Random Forest** delivered the fewest false positives, favoring customer experience but missing some fraud cases.
 
-## Dashboard Preview
+### Dataset URL:
+[Credit Card Fraud Detection – Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
- [View the interactive Tableau dashboard](https://public.tableau.com/app/profile/natalia.arteaga6342/viz/AMLProjectDashboard/Dashboard1?publish=yes) 
+## 📊 Dashboard Preview
+
+[View the interactive Tableau dashboard](https://public.tableau.com/) *(insert actual link)*
 
 ## Tools Used
 
 - **PostgreSQL** — data cleaning, aggregation, and feature creation
 - **Tableau Public** — interactive dashboard design and visualization
-- **Python (Pandas)** — used for CSV export prep 
+- **Python (Pandas, Scikit-Learn, XGBoost)** — ML modeling and evaluation
 
 ## Files
 
@@ -32,12 +37,20 @@ Dataset URL: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - `/images`: Contains static screenshots of each Tableau visual
 - `README.md`: Overview and structure of the project
 
-## Design
+##  Design
 
-Fonts: Georgia (headings), Calibri (labels)  
+Fonts: Georgia (headings), Calibri (labels)
 
 ## Author
 
 **Natalia Arteaga**  
 Data Scientist & Analytics Professional  
-🔗 [narteagae.com](https://narteagae.com)
+ [narteagae.com](https://narteagae.com)
+"""
+
+# Save to file
+updated_readme_path = "/mnt/data/README_updated.md"
+with open(updated_readme_path, "w") as f:
+    f.write(updated_readme)
+
+updated_readme_path
