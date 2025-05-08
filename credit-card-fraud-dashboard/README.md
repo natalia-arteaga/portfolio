@@ -23,7 +23,7 @@ Additionally, a machine learning model was built to predict fraud using Python. 
 
 ## 📊 Dashboard Preview
 
-[View the interactive Tableau dashboard](https://public.tableau.com/) *(insert actual link)*
+[View the interactive Tableau dashboard](https://public.tableau.com/app/profile/natalia.arteaga6342/viz/AMLProjectDashboard/Dashboard1?publish=yes)
 
 ## Tools Used
 
