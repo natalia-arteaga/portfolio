@@ -1,6 +1,6 @@
 # Uncovering Credit Card Fraud Risk Patterns
 
-This project explores time-based and transaction-level trends in credit card fraud using SQL and Tableau.
+This project explores time-based and transaction-level trends in credit card fraud using Excel, SQL, Tableau, and Python.
 
 ## Project Overview
 
@@ -46,11 +46,4 @@ Fonts: Georgia (headings), Calibri (labels)
 **Natalia Arteaga**  
 Data Scientist & Analytics Professional  
  [narteagae.com](https://narteagae.com)
-"""
 
-# Save to file
-updated_readme_path = "/mnt/data/README_updated.md"
-with open(updated_readme_path, "w") as f:
-    f.write(updated_readme)
-
-updated_readme_path
