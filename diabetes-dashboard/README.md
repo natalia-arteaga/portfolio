@@ -10,7 +10,8 @@ This project uses Tableau visualizations to highlight risk stratification and ca
 
 📊 **Data Source**: Kaggle Diabetes Dataset  https://www.kaggle.com/datasets/mathchi/diabetes-data-set
 🧰 **Tools Used**: Tableau Public  
-📎 **View Dashboard**: [See it on Tableau Public]([https://public.tableau.com/app/profile/natalia.arteaga6342/viz/DiabetesDashboard/](https://public.tableau.com/app/profile/natalia.arteaga6342/viz/DiabetesDashboard_17479128443060/Dashboard))
+📎 **View Dashboard**: [See it on Tableau Public] https://public.tableau.com/app/profile/natalia.arteaga6342/viz/DiabetesDashboard_17479128443060/Dashboard
+
 
 📁 **Purpose**:  
 
